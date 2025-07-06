@@ -1,8 +1,8 @@
 === WP Upload Restriction ===
 Contributors: msh134
 Tags: upload, media, developer tool
-Tested up to: 6.5.5
-Stable tag: 2.2.9
+Tested up to: 6.8
+Stable tag: 2.3.0
 License: GPLv2 or later
 
 This plugin allows you to control upload of files based on file types and sizes.
@@ -32,6 +32,10 @@ To return back to WordPress's default selection, just deactivate the plugin.
 2. Settings - Custom File Type management page
 
 == Changelog ==
+= 2.3.0 =
+* Fixed: Settings were not saving when no mime types were selected. 
+* Tested with WP version 6.8
+
 = 2.2.9 =
 * Fixed: Limit unit was saving but not showing the actual selection. 
 * Tested with WP version 6.5.5
